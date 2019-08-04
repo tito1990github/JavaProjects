@@ -28,7 +28,7 @@ public class SimpleCalculator {
         sum = number1 + number2;
         
         //Print the sum.
-        System.out.println(number1 + " + " + number2 + " = " + sum);
+        System.out.println("\n\t" +number1 + " + " + number2 + " = " + sum);
         
         //close a scanner
         scanner.close();
