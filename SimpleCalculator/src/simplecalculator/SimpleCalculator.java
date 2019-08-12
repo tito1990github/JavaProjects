@@ -14,9 +14,6 @@ public class SimpleCalculator {
         Scanner scanner = new Scanner(System.in);
         int number1, number2, sum = 0;
         
-        //Title of the program.
-        System.out.println("\t ADDITION CALCULATOR");
-        
         //Capture user inputs and changing them to integer
         System.out.printf("Enter the first Integer: ");
         number1 = Integer.parseInt(scanner.nextLine());
